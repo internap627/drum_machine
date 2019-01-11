@@ -12,3 +12,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* .drum-pad {
+  position: relative;
+  float: left;
+  width: padWidth;
+  height: padHeight;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding-top: 35px;
+  box-sizing: border-box;
+  cursor: pointer;
+} */
+
+.switch label input[type=checkbox]:checked+.lever {
+  background-color: whitesmoke;
+}
+
+.switch label input[type=checkbox]:lever {
+  background-color: whitesmoke;
+}
+
+.lever::after {
+ color: black;
+}
+
+.lever::before {
+  color: black;
+ }
+
+ .display {
+  outline: 5px solid whitesmoke;
+ }
+
+ .power {
+   margin: 40px;
+ }
+
+ span.lever::after {
+   background-color: whitesmoke;
+ }
+
+ p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  width: 200px;
+    
+    margin: 15px auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
