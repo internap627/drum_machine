@@ -21,5 +21,12 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
+
+"build": {
+  "homepage" : "https://internap627.github.io/drum_machine/"
 }
