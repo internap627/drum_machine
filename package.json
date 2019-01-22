@@ -24,9 +24,9 @@
   ],
   "devDependencies": {
     "gh-pages": "^2.0.1"
+  },
+  "build": {
+    "homepage" : "https://internap627.github.io/drum_machine/"
   }
 }
 
-"build": {
-  "homepage" : "https://internap627.github.io/drum_machine/"
-}
