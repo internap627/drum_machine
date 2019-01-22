@@ -3,7 +3,7 @@ import React from 'react'
 class DrumPad extends React.Component {
 
     componentDidMount() {
-        document.addEventListener('keyup', (e) => this.handleKeyUp(e))
+        document.addEventListener('keydown', (e) => this.handleKeyUp(e))
     }
 
     handleKeyUp = (e) => {
@@ -26,7 +26,7 @@ render()  {
     const {pad} = this.props
         return(
         <div className='col s4 drum-pad'>
-            <h3 className='btn white black-text '
+            <h3 className='btn-large white black-text '
             onClick={()=> this.handleClick()}
             >{pad.letter}</h3>
             <audio ref={ref => this.audio = ref}> 
